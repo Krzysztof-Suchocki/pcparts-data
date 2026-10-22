@@ -1,45 +1,46 @@
 [
   {
     "id": "cpu01",
-    "name": "CoreX 6 5600",
-    "brand": "NorthChip",
+    "name": "Ryzen 5 5600",
+    "brand": "AMD",
     "category": "Procesory",
-    "pricePln": 549,
-    "releaseYear": 2024,
-    "shortDescription": "6 rdzeni do codziennych zastosowań",
-    "description": "Procesor do komputerów biurowych, nauki i umiarkowanego grania.",
+    "pricePln": 399,
+    "releaseYear": 2022,
+    "shortDescription": "Tani, sprawdzony 6-rdzeniowiec na AM4",
+    "description": "Wciąż jeden z najrozsądniejszych wyborów do budżetowego zestawu. W pudełku jest chłodzenie Wraith Stealth, ale przy dłuższym obciążeniu warto dokupić coś cichszego. Nie ma zintegrowanej grafiki.",
     "imageFile": "cpu.jpg",
     "imageUrl": "https://krzysztof-suchocki.github.io/pcparts-data/images/cpu.jpg",
-    "rating": 4.5,
+    "rating": 4.7,
     "socketOrInterface": "AM4",
     "powerWatts": 65,
     "available": true,
     "features": [
-      "6 rdzeni",
-      "12 wątków",
-      "Zintegrowany kontroler pamięci"
+      "6 rdzeni / 12 wątków",
+      "Boost do 4,4 GHz",
+      "Chłodzenie w zestawie"
     ],
     "specifications": {
       "Rdzenie": "6",
       "Wątki": "12",
-      "Taktowanie": "3,5 GHz",
-      "Cache": "32 MB"
+      "Taktowanie": "3,5 GHz (boost 4,4 GHz)",
+      "Cache L3": "32 MB",
+      "Grafika": "Brak"
     },
     "compatibility": {
       "Gniazdo": "AM4",
-      "Pamięć": "DDR4",
-      "Chipset": "Seria 400/500"
+      "Pamięć": "DDR4-3200",
+      "Chipset": "B450, X470, B550, X570 (starsze płyty mogą wymagać aktualizacji BIOS)"
     }
   },
   {
     "id": "cpu02",
-    "name": "CoreX 8 7800",
-    "brand": "NorthChip",
+    "name": "Ryzen 7 7700X",
+    "brand": "AMD",
     "category": "Procesory",
-    "pricePln": 1149,
-    "releaseYear": 2025,
-    "shortDescription": "8-rdzeniowy układ dla wymagających",
-    "description": "Układ demonstracyjny do stacji roboczych i komputerów gamingowych.",
+    "pricePln": 1049,
+    "releaseYear": 2022,
+    "shortDescription": "8 rdzeni Zen 4 do gier i pracy",
+    "description": "Mocny procesor na platformę AM5. Chłodzenia nie ma w pudełku – najlepiej sprawdzi się porządny cooler wieżowy albo AIO 240 mm. Ma podstawowe iGPU, przydatne np. przy diagnozowaniu problemów z kartą graficzną.",
     "imageFile": "cpu.jpg",
     "imageUrl": "https://krzysztof-suchocki.github.io/pcparts-data/images/cpu.jpg",
     "rating": 4.8,
@@ -47,127 +48,130 @@
     "powerWatts": 105,
     "available": true,
     "features": [
-      "8 rdzeni",
-      "16 wątków",
-      "Tryb turbo"
+      "8 rdzeni / 16 wątków",
+      "Boost do 5,4 GHz",
+      "Zintegrowana grafika Radeon",
+      "Odblokowany mnożnik"
     ],
     "specifications": {
       "Rdzenie": "8",
       "Wątki": "16",
-      "Taktowanie": "4,2 GHz",
-      "Cache": "40 MB"
+      "Taktowanie": "4,5 GHz (boost 5,4 GHz)",
+      "Cache L3": "32 MB"
     },
     "compatibility": {
       "Gniazdo": "AM5",
       "Pamięć": "DDR5",
-      "Chipset": "Seria 600"
+      "Chipset": "A620, B650, X670, B850, X870"
     }
   },
   {
     "id": "gpu01",
-    "name": "Volt G8 8GB",
-    "brand": "PixelPeak",
+    "name": "GeForce RTX 4060 Ventus 2X Black OC 8GB",
+    "brand": "MSI",
     "category": "Karty graficzne",
-    "pricePln": 1399,
-    "releaseYear": 2024,
-    "shortDescription": "Karta graficzna do gier Full HD",
-    "description": "Przykładowa karta grafiki z akceleracją wideo i wyjściami obrazu.",
+    "pricePln": 1249,
+    "releaseYear": 2023,
+    "shortDescription": "Krótka karta do grania w 1080p",
+    "description": "Kompaktowa konstrukcja z dwoma wentylatorami – zmieści się praktycznie w każdej obudowie. Mało prądu, dobra kultura pracy, wsparcie dla DLSS 3. W nowszych grach w wysokich detalach 8 GB pamięci bywa jednak na styk.",
     "imageFile": "gpu.jpg",
     "imageUrl": "https://krzysztof-suchocki.github.io/pcparts-data/images/gpu.jpg",
-    "rating": 4.6,
+    "rating": 4.4,
     "socketOrInterface": "PCI Express 4.0",
-    "powerWatts": 180,
+    "powerWatts": 115,
     "available": true,
     "features": [
-      "8 GB VRAM",
-      "2 wentylatory",
-      "HDMI i DisplayPort"
+      "8 GB GDDR6",
+      "DLSS 3",
+      "Długość ok. 20 cm"
     ],
     "specifications": {
       "Pamięć": "8 GB GDDR6",
       "Szyna": "128 bitów",
-      "Złącza": "HDMI, DP",
-      "Chłodzenie": "Aktywne"
+      "Złącza": "3 × DisplayPort 1.4a, 1 × HDMI 2.1",
+      "Chłodzenie": "2 wentylatory"
     },
     "compatibility": {
-      "Slot": "PCIe x16",
-      "Zasilacz": "min. 550 W",
-      "Obudowa": "min. 280 mm"
+      "Slot": "PCIe x16 (karta działa w trybie x8)",
+      "Zasilacz": "zalecany 550 W",
+      "Obudowa": "min. 200 mm na kartę"
     }
   },
   {
     "id": "gpu02",
-    "name": "Volt G12 12GB",
-    "brand": "PixelPeak",
+    "name": "GeForce RTX 4070 Gaming OC 12G",
+    "brand": "Gigabyte",
     "category": "Karty graficzne",
-    "pricePln": 2299,
-    "releaseYear": 2025,
-    "shortDescription": "Wydajniejszy model do QHD",
-    "description": "Demonstracyjny model z większą pamięcią graficzną i trzema wentylatorami.",
+    "pricePln": 2449,
+    "releaseYear": 2023,
+    "shortDescription": "Rozsądny wybór do 1440p",
+    "description": "Trzy wentylatory, fabrycznie podkręcony zegar i 12 GB pamięci, które w QHD daje spokojny zapas. Karta jest dość długa, więc przed zakupem warto zmierzyć miejsce w obudowie.",
     "imageFile": "gpu.jpg",
     "imageUrl": "https://krzysztof-suchocki.github.io/pcparts-data/images/gpu.jpg",
-    "rating": 4.9,
+    "rating": 4.8,
     "socketOrInterface": "PCI Express 4.0",
-    "powerWatts": 250,
-    "available": true,
+    "powerWatts": 200,
+    "available": false,
     "features": [
-      "12 GB VRAM",
-      "3 wentylatory",
-      "Sprzętowe kodowanie wideo"
+      "12 GB GDDR6X",
+      "3 wentylatory WINDFORCE",
+      "Podświetlenie RGB",
+      "DLSS 3"
     ],
     "specifications": {
       "Pamięć": "12 GB GDDR6X",
       "Szyna": "192 bity",
-      "Złącza": "HDMI, DP",
-      "Chłodzenie": "Aktywne"
+      "Złącza": "3 × DisplayPort 1.4a, 1 × HDMI 2.1",
+      "Chłodzenie": "3 wentylatory"
     },
     "compatibility": {
       "Slot": "PCIe x16",
-      "Zasilacz": "min. 650 W",
-      "Obudowa": "min. 320 mm"
+      "Zasilacz": "zalecany 650 W",
+      "Obudowa": "min. ok. 300 mm na kartę"
     }
   },
   {
     "id": "ram01",
-    "name": "MemoryPro 16GB DDR4",
-    "brand": "RapidMemory",
+    "name": "Vengeance LPX 16GB DDR4 3200 CL16",
+    "brand": "Corsair",
     "category": "Pamięć RAM",
-    "pricePln": 189,
-    "releaseYear": 2023,
-    "shortDescription": "Moduł DDR4 do wielu zastosowań",
-    "description": "Pojedyncza kość pamięci do rozbudowy komputera z gniazdami DDR4.",
+    "pricePln": 169,
+    "releaseYear": 2016,
+    "shortDescription": "Niski radiator, zero niespodzianek",
+    "description": "Klasyka do platform DDR4. Niski profil radiatora sprawia, że nie koliduje z dużymi chłodzeniami procesora. Do pracy w trybie dual channel lepiej kupić dwie kości.",
     "imageFile": "ram.jpg",
     "imageUrl": "https://krzysztof-suchocki.github.io/pcparts-data/images/ram.jpg",
-    "rating": 4.5,
+    "rating": 4.6,
     "socketOrInterface": "DIMM DDR4",
     "powerWatts": 5,
     "available": true,
     "features": [
-      "16 GB",
-      "3200 MT/s",
-      "Radiator"
+      "16 GB (1 × 16 GB)",
+      "Profil XMP 2.0",
+      "Niski radiator"
     ],
     "specifications": {
       "Pojemność": "16 GB",
       "Typ": "DDR4",
       "Prędkość": "3200 MT/s",
-      "Opóźnienia": "CL16"
+      "Opóźnienia": "CL16",
+      "Napięcie": "1,35 V"
     },
     "compatibility": {
       "Płyta": "DDR4 UDIMM",
       "Format": "Desktop DIMM",
-      "Obsługa": "XMP"
+      "Obsługa": "Intel XMP 2.0"
     }
   },
   {
     "id": "ram02",
-    "name": "MemoryPro 32GB DDR5",
-    "brand": "RapidMemory",
+    "name": "FURY Beast 32GB DDR5 5600 CL36 EXPO",
+    "brand": "Kingston",
     "category": "Pamięć RAM",
-    "pricePln": 419,
-    "releaseYear": 2025,
-    "shortDescription": "Szybki moduł DDR5 32 GB",
-    "description": "Pamięć do nowszych płyt głównych. Dane przykładowe.",
+    "pricePln": 449,
+    "releaseYear": 2022,
+    "shortDescription": "32 GB DDR5 z profilem EXPO",
+    "description": "Pojedynczy moduł 32 GB z profilem pod platformy AMD. Po włączeniu EXPO w BIOS-ie od razu działa z deklarowaną prędkością.",
     "imageFile": "ram.jpg",
     "imageUrl": "https://krzysztof-suchocki.github.io/pcparts-data/images/ram.jpg",
     "rating": 4.7,
@@ -175,169 +179,173 @@
     "powerWatts": 7,
     "available": true,
     "features": [
-      "32 GB",
-      "5600 MT/s",
-      "Profile EXPO"
+      "32 GB (1 × 32 GB)",
+      "AMD EXPO"
     ],
     "specifications": {
       "Pojemność": "32 GB",
       "Typ": "DDR5",
       "Prędkość": "5600 MT/s",
-      "Opóźnienia": "CL36"
+      "Opóźnienia": "CL36",
+      "Napięcie": "1,25 V"
     },
     "compatibility": {
       "Płyta": "DDR5 UDIMM",
       "Format": "Desktop DIMM",
-      "Obsługa": "EXPO/XMP"
+      "Obsługa": "AMD EXPO"
     }
   },
   {
     "id": "ssd01",
-    "name": "FlashLine 1TB NVMe",
-    "brand": "StorageWay",
+    "name": "P3 Plus 1TB",
+    "brand": "Crucial",
     "category": "Dyski SSD",
-    "pricePln": 299,
-    "releaseYear": 2024,
-    "shortDescription": "Szybki nośnik M.2 o pojemności 1 TB",
-    "description": "Pamięć masowa do systemu operacyjnego oraz gier.",
+    "pricePln": 279,
+    "releaseYear": 2022,
+    "shortDescription": "Budżetowy NVMe PCIe 4.0",
+    "description": "Wystarczająco szybki pod system i gry. Przy bardzo długich zapisach wyraźnie zwalnia (pamięć QLC, brak DRAM), ale do domowego komputera to zwykle bez znaczenia.",
     "imageFile": "ssd.jpg",
     "imageUrl": "https://krzysztof-suchocki.github.io/pcparts-data/images/ssd.jpg",
-    "rating": 4.6,
+    "rating": 4.3,
     "socketOrInterface": "M.2 PCIe 4.0",
-    "powerWatts": 5,
+    "powerWatts": 6,
     "available": true,
     "features": [
       "1 TB",
       "M.2 2280",
-      "NVMe"
+      "Odczyt do 5000 MB/s"
     ],
     "specifications": {
       "Pojemność": "1 TB",
       "Odczyt": "5000 MB/s",
-      "Zapis": "4200 MB/s",
-      "Interfejs": "NVMe"
+      "Zapis": "3600 MB/s",
+      "Pamięć": "QLC NAND"
     },
     "compatibility": {
       "Złącze": "M.2 2280",
-      "Linie": "PCIe x4",
+      "Linie": "PCIe 4.0 x4 (działa też w PCIe 3.0)",
       "System": "Windows/Linux"
     }
   },
   {
     "id": "ssd02",
-    "name": "FlashLine 2TB NVMe",
-    "brand": "StorageWay",
+    "name": "WD_BLACK SN850X 2TB",
+    "brand": "Western Digital",
     "category": "Dyski SSD",
-    "pricePln": 499,
-    "releaseYear": 2025,
-    "shortDescription": "Dysk SSD 2 TB do większych bibliotek",
-    "description": "Demonstracyjny dysk o większej pojemności i szybkim interfejsie.",
+    "pricePln": 649,
+    "releaseYear": 2022,
+    "shortDescription": "Szybki dysk do gier i pracy",
+    "description": "Jeden z najszybszych dysków PCIe 4.0. Dobra wytrzymałość (1200 TBW), dostępny też w wersji z radiatorem – przydatnej np. w PS5.",
     "imageFile": "ssd.jpg",
     "imageUrl": "https://krzysztof-suchocki.github.io/pcparts-data/images/ssd.jpg",
-    "rating": 4.8,
+    "rating": 4.9,
     "socketOrInterface": "M.2 PCIe 4.0",
-    "powerWatts": 6,
+    "powerWatts": 8,
     "available": true,
     "features": [
       "2 TB",
       "M.2 2280",
-      "Radiator opcjonalny"
+      "Odczyt do 7300 MB/s",
+      "Wersja z radiatorem dostępna osobno"
     ],
     "specifications": {
       "Pojemność": "2 TB",
-      "Odczyt": "6900 MB/s",
-      "Zapis": "6000 MB/s",
-      "Interfejs": "NVMe"
+      "Odczyt": "7300 MB/s",
+      "Zapis": "6600 MB/s",
+      "Wytrzymałość": "1200 TBW"
     },
     "compatibility": {
       "Złącze": "M.2 2280",
-      "Linie": "PCIe x4",
-      "System": "Windows/Linux"
+      "Linie": "PCIe 4.0 x4",
+      "System": "Windows/Linux, PS5"
     }
   },
   {
     "id": "mb01",
-    "name": "MainBoard A4 WiFi",
-    "brand": "BoardCraft",
+    "name": "TUF GAMING B550-PLUS WIFI II",
+    "brand": "ASUS",
     "category": "Płyty główne",
-    "pricePln": 589,
-    "releaseYear": 2024,
-    "shortDescription": "Płyta ATX do procesorów AM4",
-    "description": "Przykładowa płyta główna dla pamięci DDR4 i kart PCI Express.",
+    "pricePln": 579,
+    "releaseYear": 2021,
+    "shortDescription": "Solidna płyta ATX pod Ryzeny na AM4",
+    "description": "Porządna sekcja zasilania, Wi-Fi 6 na pokładzie i dwa złącza M.2. Dobra baza pod Ryzena 5000 bez przepłacania.",
     "imageFile": "motherboard.jpg",
     "imageUrl": "https://krzysztof-suchocki.github.io/pcparts-data/images/motherboard.jpg",
-    "rating": 4.4,
+    "rating": 4.5,
     "socketOrInterface": "AM4",
     "powerWatts": 35,
     "available": true,
     "features": [
-      "4 sloty RAM",
-      "Wi-Fi",
-      "Dwa sloty M.2"
+      "4 sloty DDR4",
+      "Wi-Fi 6",
+      "2 × M.2"
     ],
     "specifications": {
       "Format": "ATX",
       "Socket": "AM4",
-      "RAM": "DDR4",
-      "Sieć": "1 Gb/s + Wi-Fi"
+      "Chipset": "B550",
+      "RAM": "DDR4, 4 sloty",
+      "Sieć": "2,5 Gb/s + Wi-Fi 6"
     },
     "compatibility": {
-      "Procesory": "AM4",
+      "Procesory": "AMD Ryzen 3000/5000 (AM4)",
       "Obudowa": "ATX",
       "Dyski": "SATA / M.2"
     }
   },
   {
     "id": "mb02",
-    "name": "MainBoard A5 Pro",
-    "brand": "BoardCraft",
+    "name": "B650 AORUS ELITE AX",
+    "brand": "Gigabyte",
     "category": "Płyty główne",
-    "pricePln": 999,
-    "releaseYear": 2025,
-    "shortDescription": "Płyta ATX pod platformę AM5",
-    "description": "Przykładowa płyta do nowych procesorów i pamięci DDR5.",
+    "pricePln": 899,
+    "releaseYear": 2022,
+    "shortDescription": "Płyta AM5 z Wi-Fi 6E",
+    "description": "Popularny wybór pod Ryzeny 7000/9000. Ma złącze M.2 PCIe 5.0, szybki LAN i Wi-Fi 6E. Przed montażem nowszego procesora warto sprawdzić wersję BIOS-u.",
     "imageFile": "motherboard.jpg",
     "imageUrl": "https://krzysztof-suchocki.github.io/pcparts-data/images/motherboard.jpg",
-    "rating": 4.7,
+    "rating": 4.6,
     "socketOrInterface": "AM5",
-    "powerWatts": 48,
+    "powerWatts": 50,
     "available": true,
     "features": [
       "DDR5",
-      "PCIe 5.0",
-      "Wi-Fi 6"
+      "M.2 PCIe 5.0",
+      "Wi-Fi 6E",
+      "Q-Flash Plus"
     ],
     "specifications": {
       "Format": "ATX",
       "Socket": "AM5",
-      "RAM": "DDR5",
-      "Sieć": "2,5 Gb/s + Wi-Fi"
+      "Chipset": "B650",
+      "RAM": "DDR5, 4 sloty",
+      "Sieć": "2,5 Gb/s + Wi-Fi 6E"
     },
     "compatibility": {
-      "Procesory": "AM5",
+      "Procesory": "AMD Ryzen 7000/8000/9000 (AM5)",
       "Obudowa": "ATX",
       "Dyski": "SATA / M.2"
     }
   },
   {
     "id": "psu01",
-    "name": "PowerBox 550W Bronze",
-    "brand": "VoltSafe",
+    "name": "System Power 10 550W",
+    "brand": "be quiet!",
     "category": "Zasilacze",
-    "pricePln": 249,
-    "releaseYear": 2024,
-    "shortDescription": "Zasilacz ATX 550 W",
-    "description": "Zasilacz do podstawowych zestawów i kart o umiarkowanym poborze energii.",
+    "pricePln": 239,
+    "releaseYear": 2022,
+    "shortDescription": "Cichy zasilacz do prostego zestawu",
+    "description": "Wystarczy do zestawu z kartą pokroju RTX 4060. Kable są na stałe, więc w małej obudowie trzeba je trochę poupychać.",
     "imageFile": "psu.jpg",
     "imageUrl": "https://krzysztof-suchocki.github.io/pcparts-data/images/psu.jpg",
-    "rating": 4.3,
-    "socketOrInterface": "ATX 2.4",
+    "rating": 4.2,
+    "socketOrInterface": "ATX",
     "powerWatts": 550,
     "available": true,
     "features": [
       "550 W",
-      "120 mm wentylator",
-      "Ochrona przeciwprzepięciowa"
+      "80 PLUS Bronze",
+      "Wentylator 120 mm"
     ],
     "specifications": {
       "Moc": "550 W",
@@ -347,40 +355,40 @@
     },
     "compatibility": {
       "Obudowa": "ATX",
-      "Zasilanie GPU": "1 × 8 pin",
-      "CPU": "EPS 8 pin"
+      "Zasilanie GPU": "PCIe 6+2 pin",
+      "CPU": "EPS 4+4 pin"
     }
   },
   {
     "id": "psu02",
-    "name": "PowerBox 750W Gold",
-    "brand": "VoltSafe",
+    "name": "RM750e (2023)",
+    "brand": "Corsair",
     "category": "Zasilacze",
-    "pricePln": 479,
-    "releaseYear": 2025,
-    "shortDescription": "Mocniejszy zasilacz 750 W",
-    "description": "Przykładowy zasilacz dla bardziej wymagających konfiguracji.",
+    "pricePln": 429,
+    "releaseYear": 2023,
+    "shortDescription": "Modularny 750 W pod mocniejsze karty",
+    "description": "Pełna modularność, standard ATX 3.0 i natywny kabel 12VHPWR. Przy typowym obciążeniu wentylator praktycznie się nie odzywa.",
     "imageFile": "psu.jpg",
     "imageUrl": "https://krzysztof-suchocki.github.io/pcparts-data/images/psu.jpg",
-    "rating": 4.8,
+    "rating": 4.7,
     "socketOrInterface": "ATX 3.0",
     "powerWatts": 750,
     "available": true,
     "features": [
       "750 W",
-      "Modularne kable",
-      "Cichy tryb"
+      "Pełna modularność",
+      "Kabel 12VHPWR w zestawie"
     ],
     "specifications": {
       "Moc": "750 W",
       "Certyfikat": "80 PLUS Gold",
-      "Wentylator": "135 mm",
+      "Wentylator": "120 mm",
       "Okablowanie": "Modularne"
     },
     "compatibility": {
       "Obudowa": "ATX",
-      "Zasilanie GPU": "2 × 8 pin",
-      "CPU": "EPS 8 pin"
+      "Zasilanie GPU": "PCIe 6+2 pin, 12VHPWR",
+      "CPU": "EPS 4+4 pin"
     }
   }
 ]
