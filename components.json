@@ -1,0 +1,386 @@
+[
+  {
+    "id": "cpu01",
+    "name": "CoreX 6 5600",
+    "brand": "NorthChip",
+    "category": "Procesory",
+    "pricePln": 549,
+    "releaseYear": 2024,
+    "shortDescription": "6 rdzeni do codziennych zastosowań",
+    "description": "Procesor do komputerów biurowych, nauki i umiarkowanego grania.",
+    "imageFile": "cpu.jpg",
+    "imageUrl": "https://YOUR_USERNAME.github.io/pcparts-data/images/cpu.jpg",
+    "rating": 4.5,
+    "socketOrInterface": "AM4",
+    "powerWatts": 65,
+    "available": true,
+    "features": [
+      "6 rdzeni",
+      "12 wątków",
+      "Zintegrowany kontroler pamięci"
+    ],
+    "specifications": {
+      "Rdzenie": "6",
+      "Wątki": "12",
+      "Taktowanie": "3,5 GHz",
+      "Cache": "32 MB"
+    },
+    "compatibility": {
+      "Gniazdo": "AM4",
+      "Pamięć": "DDR4",
+      "Chipset": "Seria 400/500"
+    }
+  },
+  {
+    "id": "cpu02",
+    "name": "CoreX 8 7800",
+    "brand": "NorthChip",
+    "category": "Procesory",
+    "pricePln": 1149,
+    "releaseYear": 2025,
+    "shortDescription": "8-rdzeniowy układ dla wymagających",
+    "description": "Układ demonstracyjny do stacji roboczych i komputerów gamingowych.",
+    "imageFile": "cpu.jpg",
+    "imageUrl": "https://YOUR_USERNAME.github.io/pcparts-data/images/cpu.jpg",
+    "rating": 4.8,
+    "socketOrInterface": "AM5",
+    "powerWatts": 105,
+    "available": true,
+    "features": [
+      "8 rdzeni",
+      "16 wątków",
+      "Tryb turbo"
+    ],
+    "specifications": {
+      "Rdzenie": "8",
+      "Wątki": "16",
+      "Taktowanie": "4,2 GHz",
+      "Cache": "40 MB"
+    },
+    "compatibility": {
+      "Gniazdo": "AM5",
+      "Pamięć": "DDR5",
+      "Chipset": "Seria 600"
+    }
+  },
+  {
+    "id": "gpu01",
+    "name": "Volt G8 8GB",
+    "brand": "PixelPeak",
+    "category": "Karty graficzne",
+    "pricePln": 1399,
+    "releaseYear": 2024,
+    "shortDescription": "Karta graficzna do gier Full HD",
+    "description": "Przykładowa karta grafiki z akceleracją wideo i wyjściami obrazu.",
+    "imageFile": "gpu.jpg",
+    "imageUrl": "https://YOUR_USERNAME.github.io/pcparts-data/images/gpu.jpg",
+    "rating": 4.6,
+    "socketOrInterface": "PCI Express 4.0",
+    "powerWatts": 180,
+    "available": true,
+    "features": [
+      "8 GB VRAM",
+      "2 wentylatory",
+      "HDMI i DisplayPort"
+    ],
+    "specifications": {
+      "Pamięć": "8 GB GDDR6",
+      "Szyna": "128 bitów",
+      "Złącza": "HDMI, DP",
+      "Chłodzenie": "Aktywne"
+    },
+    "compatibility": {
+      "Slot": "PCIe x16",
+      "Zasilacz": "min. 550 W",
+      "Obudowa": "min. 280 mm"
+    }
+  },
+  {
+    "id": "gpu02",
+    "name": "Volt G12 12GB",
+    "brand": "PixelPeak",
+    "category": "Karty graficzne",
+    "pricePln": 2299,
+    "releaseYear": 2025,
+    "shortDescription": "Wydajniejszy model do QHD",
+    "description": "Demonstracyjny model z większą pamięcią graficzną i trzema wentylatorami.",
+    "imageFile": "gpu.jpg",
+    "imageUrl": "https://YOUR_USERNAME.github.io/pcparts-data/images/gpu.jpg",
+    "rating": 4.9,
+    "socketOrInterface": "PCI Express 4.0",
+    "powerWatts": 250,
+    "available": true,
+    "features": [
+      "12 GB VRAM",
+      "3 wentylatory",
+      "Sprzętowe kodowanie wideo"
+    ],
+    "specifications": {
+      "Pamięć": "12 GB GDDR6X",
+      "Szyna": "192 bity",
+      "Złącza": "HDMI, DP",
+      "Chłodzenie": "Aktywne"
+    },
+    "compatibility": {
+      "Slot": "PCIe x16",
+      "Zasilacz": "min. 650 W",
+      "Obudowa": "min. 320 mm"
+    }
+  },
+  {
+    "id": "ram01",
+    "name": "MemoryPro 16GB DDR4",
+    "brand": "RapidMemory",
+    "category": "Pamięć RAM",
+    "pricePln": 189,
+    "releaseYear": 2023,
+    "shortDescription": "Moduł DDR4 do wielu zastosowań",
+    "description": "Pojedyncza kość pamięci do rozbudowy komputera z gniazdami DDR4.",
+    "imageFile": "ram.jpg",
+    "imageUrl": "https://YOUR_USERNAME.github.io/pcparts-data/images/ram.jpg",
+    "rating": 4.5,
+    "socketOrInterface": "DIMM DDR4",
+    "powerWatts": 5,
+    "available": true,
+    "features": [
+      "16 GB",
+      "3200 MT/s",
+      "Radiator"
+    ],
+    "specifications": {
+      "Pojemność": "16 GB",
+      "Typ": "DDR4",
+      "Prędkość": "3200 MT/s",
+      "Opóźnienia": "CL16"
+    },
+    "compatibility": {
+      "Płyta": "DDR4 UDIMM",
+      "Format": "Desktop DIMM",
+      "Obsługa": "XMP"
+    }
+  },
+  {
+    "id": "ram02",
+    "name": "MemoryPro 32GB DDR5",
+    "brand": "RapidMemory",
+    "category": "Pamięć RAM",
+    "pricePln": 419,
+    "releaseYear": 2025,
+    "shortDescription": "Szybki moduł DDR5 32 GB",
+    "description": "Pamięć do nowszych płyt głównych. Dane przykładowe.",
+    "imageFile": "ram.jpg",
+    "imageUrl": "https://YOUR_USERNAME.github.io/pcparts-data/images/ram.jpg",
+    "rating": 4.7,
+    "socketOrInterface": "DIMM DDR5",
+    "powerWatts": 7,
+    "available": true,
+    "features": [
+      "32 GB",
+      "5600 MT/s",
+      "Profile EXPO"
+    ],
+    "specifications": {
+      "Pojemność": "32 GB",
+      "Typ": "DDR5",
+      "Prędkość": "5600 MT/s",
+      "Opóźnienia": "CL36"
+    },
+    "compatibility": {
+      "Płyta": "DDR5 UDIMM",
+      "Format": "Desktop DIMM",
+      "Obsługa": "EXPO/XMP"
+    }
+  },
+  {
+    "id": "ssd01",
+    "name": "FlashLine 1TB NVMe",
+    "brand": "StorageWay",
+    "category": "Dyski SSD",
+    "pricePln": 299,
+    "releaseYear": 2024,
+    "shortDescription": "Szybki nośnik M.2 o pojemności 1 TB",
+    "description": "Pamięć masowa do systemu operacyjnego oraz gier.",
+    "imageFile": "ssd.jpg",
+    "imageUrl": "https://YOUR_USERNAME.github.io/pcparts-data/images/ssd.jpg",
+    "rating": 4.6,
+    "socketOrInterface": "M.2 PCIe 4.0",
+    "powerWatts": 5,
+    "available": true,
+    "features": [
+      "1 TB",
+      "M.2 2280",
+      "NVMe"
+    ],
+    "specifications": {
+      "Pojemność": "1 TB",
+      "Odczyt": "5000 MB/s",
+      "Zapis": "4200 MB/s",
+      "Interfejs": "NVMe"
+    },
+    "compatibility": {
+      "Złącze": "M.2 2280",
+      "Linie": "PCIe x4",
+      "System": "Windows/Linux"
+    }
+  },
+  {
+    "id": "ssd02",
+    "name": "FlashLine 2TB NVMe",
+    "brand": "StorageWay",
+    "category": "Dyski SSD",
+    "pricePln": 499,
+    "releaseYear": 2025,
+    "shortDescription": "Dysk SSD 2 TB do większych bibliotek",
+    "description": "Demonstracyjny dysk o większej pojemności i szybkim interfejsie.",
+    "imageFile": "ssd.jpg",
+    "imageUrl": "https://YOUR_USERNAME.github.io/pcparts-data/images/ssd.jpg",
+    "rating": 4.8,
+    "socketOrInterface": "M.2 PCIe 4.0",
+    "powerWatts": 6,
+    "available": true,
+    "features": [
+      "2 TB",
+      "M.2 2280",
+      "Radiator opcjonalny"
+    ],
+    "specifications": {
+      "Pojemność": "2 TB",
+      "Odczyt": "6900 MB/s",
+      "Zapis": "6000 MB/s",
+      "Interfejs": "NVMe"
+    },
+    "compatibility": {
+      "Złącze": "M.2 2280",
+      "Linie": "PCIe x4",
+      "System": "Windows/Linux"
+    }
+  },
+  {
+    "id": "mb01",
+    "name": "MainBoard A4 WiFi",
+    "brand": "BoardCraft",
+    "category": "Płyty główne",
+    "pricePln": 589,
+    "releaseYear": 2024,
+    "shortDescription": "Płyta ATX do procesorów AM4",
+    "description": "Przykładowa płyta główna dla pamięci DDR4 i kart PCI Express.",
+    "imageFile": "motherboard.jpg",
+    "imageUrl": "https://YOUR_USERNAME.github.io/pcparts-data/images/motherboard.jpg",
+    "rating": 4.4,
+    "socketOrInterface": "AM4",
+    "powerWatts": 35,
+    "available": true,
+    "features": [
+      "4 sloty RAM",
+      "Wi-Fi",
+      "Dwa sloty M.2"
+    ],
+    "specifications": {
+      "Format": "ATX",
+      "Socket": "AM4",
+      "RAM": "DDR4",
+      "Sieć": "1 Gb/s + Wi-Fi"
+    },
+    "compatibility": {
+      "Procesory": "AM4",
+      "Obudowa": "ATX",
+      "Dyski": "SATA / M.2"
+    }
+  },
+  {
+    "id": "mb02",
+    "name": "MainBoard A5 Pro",
+    "brand": "BoardCraft",
+    "category": "Płyty główne",
+    "pricePln": 999,
+    "releaseYear": 2025,
+    "shortDescription": "Płyta ATX pod platformę AM5",
+    "description": "Przykładowa płyta do nowych procesorów i pamięci DDR5.",
+    "imageFile": "motherboard.jpg",
+    "imageUrl": "https://YOUR_USERNAME.github.io/pcparts-data/images/motherboard.jpg",
+    "rating": 4.7,
+    "socketOrInterface": "AM5",
+    "powerWatts": 48,
+    "available": true,
+    "features": [
+      "DDR5",
+      "PCIe 5.0",
+      "Wi-Fi 6"
+    ],
+    "specifications": {
+      "Format": "ATX",
+      "Socket": "AM5",
+      "RAM": "DDR5",
+      "Sieć": "2,5 Gb/s + Wi-Fi"
+    },
+    "compatibility": {
+      "Procesory": "AM5",
+      "Obudowa": "ATX",
+      "Dyski": "SATA / M.2"
+    }
+  },
+  {
+    "id": "psu01",
+    "name": "PowerBox 550W Bronze",
+    "brand": "VoltSafe",
+    "category": "Zasilacze",
+    "pricePln": 249,
+    "releaseYear": 2024,
+    "shortDescription": "Zasilacz ATX 550 W",
+    "description": "Zasilacz do podstawowych zestawów i kart o umiarkowanym poborze energii.",
+    "imageFile": "psu.jpg",
+    "imageUrl": "https://YOUR_USERNAME.github.io/pcparts-data/images/psu.jpg",
+    "rating": 4.3,
+    "socketOrInterface": "ATX 2.4",
+    "powerWatts": 550,
+    "available": true,
+    "features": [
+      "550 W",
+      "120 mm wentylator",
+      "Ochrona przeciwprzepięciowa"
+    ],
+    "specifications": {
+      "Moc": "550 W",
+      "Certyfikat": "80 PLUS Bronze",
+      "Wentylator": "120 mm",
+      "Okablowanie": "Stałe"
+    },
+    "compatibility": {
+      "Obudowa": "ATX",
+      "Zasilanie GPU": "1 × 8 pin",
+      "CPU": "EPS 8 pin"
+    }
+  },
+  {
+    "id": "psu02",
+    "name": "PowerBox 750W Gold",
+    "brand": "VoltSafe",
+    "category": "Zasilacze",
+    "pricePln": 479,
+    "releaseYear": 2025,
+    "shortDescription": "Mocniejszy zasilacz 750 W",
+    "description": "Przykładowy zasilacz dla bardziej wymagających konfiguracji.",
+    "imageFile": "psu.jpg",
+    "imageUrl": "https://YOUR_USERNAME.github.io/pcparts-data/images/psu.jpg",
+    "rating": 4.8,
+    "socketOrInterface": "ATX 3.0",
+    "powerWatts": 750,
+    "available": true,
+    "features": [
+      "750 W",
+      "Modularne kable",
+      "Cichy tryb"
+    ],
+    "specifications": {
+      "Moc": "750 W",
+      "Certyfikat": "80 PLUS Gold",
+      "Wentylator": "135 mm",
+      "Okablowanie": "Modularne"
+    },
+    "compatibility": {
+      "Obudowa": "ATX",
+      "Zasilanie GPU": "2 × 8 pin",
+      "CPU": "EPS 8 pin"
+    }
+  }
+]
